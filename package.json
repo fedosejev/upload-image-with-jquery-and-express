@@ -1,0 +1,26 @@
+{
+  "name": "upload-image-with-express-mongoose",
+  "version": "1.0.0",
+  "description": "Example of how to upload image using Node.js, Express.js, Mongoose and MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fedosejev/upload-image-with-express-mongoose.git"
+  },
+  "author": "Artemij Fedosejev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedosejev/upload-image-with-express-mongoose/issues"
+  },
+  "homepage": "https://github.com/fedosejev/upload-image-with-express-mongoose",
+  "dependencies": {
+    "cors": "^2.7.1",
+    "crypto": "0.0.3",
+    "express": "^4.13.3",
+    "multer": "^1.1.0",
+    "path": "^0.12.7"
+  }
+}
