@@ -6,10 +6,10 @@ var crypto = require('crypto');
 
 var PORT = 8181;
 var FILE_SIZE_LIMIT_IN_MB = 5;
-var UPLOAD_PATH = './public/uploads/';
+var UPLOAD_PATH = '/public/uploads/';
 
 var storage = multer.diskStorage({
-  destination: UPLOAD_PATH,
+  destination: __dirname + UPLOAD_PATH,
   filename: function (request, file, callback) {
     crypto.pseudoRandomBytes(16, function (error, raw) {
       if (error) {
