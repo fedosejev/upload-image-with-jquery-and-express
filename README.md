@@ -1,2 +1,12 @@
-# image-upload-express-mongo
-Example of how to upload image using Node.js, Express.js, Mongoose and MongoDB.
+# Upload image with jQuery, Node.js and Express.js
+Example of how to upload image using jQuery, Node.js and Express.js.
+
+## Install
+
+`npm install`
+
+## Run
+
+1. `node server/server.js`
+2. `http-server ./client -p 8888`
+3. Open `http://localhost:8888` in a web browser.
