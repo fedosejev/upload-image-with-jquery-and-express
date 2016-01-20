@@ -1,5 +1,5 @@
-# Upload image with jQuery, Node.js and Express.js
-Example of how to upload image using jQuery, Node.js and Express.js.
+# Upload an image with jQuery, Node.js and Express.js
+Example of how to upload an image using jQuery, Node.js and Express.js.
 
 ## Install
 
