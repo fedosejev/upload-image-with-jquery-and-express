@@ -14,3 +14,4 @@ Example of how to upload an image using jQuery, Node.js and Express.js.
 ## Learn more
 
 + http://simpleupload.michaelcbrook.com
++ http://expressjs.com/en/guide/using-middleware.html
